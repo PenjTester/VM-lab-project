@@ -81,7 +81,7 @@ Commands executed from Command Prompt:
 - `lab.local` resolves to 10.0.2.10
 - nslookup confirms DNS is resolving via DC
 
-<img width="958" height="562" alt="Screenshot 2025-11-19 153618" src="https://github.com/user-attachments/assets/0405b4b1-4ef3-43f1-9c17-c62fbfe07794" />
+<img width="535" height="568" alt="Screenshot 2025-11-19 184716" src="https://github.com/user-attachments/assets/da15c449-ef04-4540-a08f-7fade5693711" />
 
 ---
 
