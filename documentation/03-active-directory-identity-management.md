@@ -193,7 +193,10 @@ Shows confirmation that the machine is joined to **lab.local** domain.
 
 ---
 
-### Status:  Domain authentication successfully validated
+### Section 6 Summary — Identity & Authentication Validation
+
+*checklist validating that new user accounts and AD-based authentication are functioning correctly*
+
 
 | Verification Check | Result |
 |--------------------|--------|
