@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Goal of This Milestone
+##  Goal of This Milestone
 
 Design and implement a realistic Active Directory identity structure to support:
 
@@ -90,7 +90,7 @@ Protection was temporarily disabled to allow nesting and re-enabled after struct
 
 ---
 
-## ✅ Current Milestone Status
+##  Current Milestone Status
 
 | Task | Status |
 |------|--------|
