@@ -193,7 +193,7 @@ Shows confirmation that the machine is joined to **lab.local** domain.
 
 ---
 
-### Status: ✔ Domain authentication successfully validated
+### Status:  Domain authentication successfully validated
 
 | Verification Check | Result |
 |--------------------|--------|
