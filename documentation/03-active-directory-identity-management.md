@@ -90,18 +90,52 @@ Protection was temporarily disabled to allow nesting and re-enabled after struct
 
 ---
 
-##  Current Milestone Status
+---
 
-| Task | Status |
-|------|--------|
-| Create all required OUs | ✔️ |
-| Nest OUs into hierarchy | ✔️ |
-| Re-enable object protection | ✔️ |
-| Prepare for user account creation | ⏳ Next |
+## 4️. Domain User Account Creation
+
+With the OU structure established, four domain user accounts were created in their appropriate departmental OUs. Each account follows a standard naming convention of **first initial + last name**, and was configured with:
+
+- ✔️ User must change password at next login  
+- ❌ Account is disabled (unchecked) 
+- ❌ User cannot change password (unchecked)  
+- ❌ Password never expires (unchecked)  
+
+| Full Name     | Username | OU Location                         |
+|---------------|----------|-------------------------------------|
+| John Miller   | jmiller  | _Users → Management                 |
+| Sarah Davis   | sdavis   | _Users → HR                         |
+| Michael Lee   | mlee     | _Users → Sales                      |
+| Emily Clark   | eclark   | _Users → IT_Support                 |
+
+ *Screenshot — Example of “New Object – User” window showing account details (jmiller)*  
+
+<img width="435" height="369" alt="Screenshot 2025-11-21 140253" src="https://github.com/user-attachments/assets/0e6c46ab-35c7-4ec8-a2f5-d0937a8203b6" />
+
+
+ *Screenshot — Password configuration screen with “User must change password at next login” enabled*
+
+<img width="434" height="375" alt="Screenshot 2025-11-21 140356" src="https://github.com/user-attachments/assets/52916d6f-2bb3-4b4b-b521-236b01a7c5ba" />
+
+
+ *Screenshot — ADUC showing John Miller correctly placed in the Management OU*
+
+<img width="745" height="243" alt="image" src="https://github.com/user-attachments/assets/23c52168-47aa-4898-a03b-33ee4d742722" />
+
+> **Note:** All other user accounts (sdavis, mlee, eclark) were also verified to be correctly located in their respective departmental OUs, matching the intended AD structure.
+
 
 ---
 
-###  Next Step
+##  Checkpoint Summary
 
-Begin creating domain user accounts within their appropriate departmental OUs.
+| Component | Status |
+|-----------|--------|
+| OU structure created and nested | ✔️ |
+| Object protection enabled after nesting | ✔️ |
+| User accounts added to correct OUs | ✔️ |
+| Ready for login testing from LAB-CLIENT01 |  Next |
+
+---
+
 
